@@ -1,9 +1,5 @@
 ## :page_with_curl: Projeto
 
-<LINKEDIN>
-Entendendo sobre a base de microsserviços com Nodex.js!
-</LINKEDIN>
-
 Microsserviço é um conceito que vai implicar na maneira que você pensa na aplicação antes de codar do que durante o código
 
 O microsserviço tem alguns princípios:
@@ -16,13 +12,8 @@ Se uma aplicação parar de funcionar, ou alguma outra aplicação cair, ou algu
 
 E quando vamos falar com o pessoal do financeiro e eles falam que o "consumidor"
 realiza um pagamento, percebe-se que cliente e consumidor é a mesma coisa mas em domínios diferentes. Dependendo com quem iremos falar na barbearia, essa pessoa vai se referir as vezes a mesma coisa com nomes diferentes, ou seja, para diferentes áreas de entendimento as entidades podem ter nomes diferentes.
-<LINKEDIN>
-Mas o que é domínio?
-</LINKEDIN>
-
 Domínio é muito utilizado dentro do DDD, o domínio da aplicação é entender em qual contexto a nossa aplicação está sendo aplicado. Domínios são áreas de entendimento.
 
-<LINKEDIN>
 Mas afinal, o que ganhamos utilizando uma arquitetura como essa? 
 Quais as vantagens de dividir a aplicação em várias "mini aplicações"?
 
@@ -35,9 +26,22 @@ Quais as vantagens de dividir a aplicação em várias "mini aplicações"?
 Mas nem tudo são flores
 Com microsserviços também temos desafios:
 
-- Observabilidade: observabilidade é básicamente você saber o que está acontecendo com a aplicação, e não esperar por exemplo um usuário te mandar um e-mail falando que teve algun problema. Quando trabalhamos com microsserviços não temos que controlar a observabilidade de uma aplicação, temos que controlar a observabilidade de muitas aplicações(ex: o mercado livre já tem mais do 10.000 microsserviços).
+- Observabilidade: observabilidade é básicamente você saber o que está acontecendo com a aplicação, e não esperar por exemplo um usuário te mandar um e-mail falando que teve algun problema. Quando trabalhamos com microsserviços não temos que controlar a observabilidade de uma aplicação, temos que controlar a observabilidade de muitas aplicações.
 
 - Comunicação: como que 1 microsserviço se comunica com outro?
 
 - Resiliência a falhas: ex: eu tenho um microsserviço de compras, e esse microsserviço se comunica com um microsserviço de nota fiscal para cada vez que tiver uma compra eu emitir uma nota fiscal, o que vai acontecer se o serviço de nota fiscal para de funcionar? Qual é o mecanismo de tolerância a falhas que eu tenho no serviço de compras para que mesmo que o serviço de nota fiscal não esteja no ar ele continue operando normalmente e quando o serviço de nota fiscal voltar a funcionar ele consiga fazer uma análise de tudo que tem que ser realizado.
-</LINKEDIN>
+
+## 🚀 Tecnologias/Bibliotecas utilizadas
+
+<a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white" alt="TypeScript"> </a>
+<a href="https://nodejs.org/en/" target="_blank"> <img src="https://img.shields.io/badge/-Node.js-32CD32?style=flat-square&logo=Node.js&logoColor=white" alt="Node.js"> </a>
+<a href="https://www.prisma.io/" target="_blank"> <img src="https://img.shields.io/badge/-Prisma-3368FF?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"> </a>
+<a href="https://kafka.apache.org/" target="_blank"> <img src="https://img.shields.io/badge/-Kafka-5CA2A2?style=flat-square&logo=apachekafka&logoColor=white" alt="Prisma"> </a>
+
+## 💻 Autor
+
+Feito com 💜 by Rodrigo Rael
+
+<a href="https://www.linkedin.com/in/rodrigo-rael-a7a4b51a9/" target="_blank"> <img src="https://img.shields.io/badge/-RodrigoRael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https" alt="Linkedin Rodrigo"> </a>
+<a href="https://img.shields.io/badge/-rodrigorael53@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodrigorael53@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/-rodrigorael53@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rodrigorael53@gmail.com" alt="Gmail Rodrigo"> </a>
