@@ -19,6 +19,7 @@ interface PurchasesNewPurchaseMessage {
 }
 
 async function main() {
+  // o consumer vai consumir as mensagens enviadas pelo serviço dd purchases
   const consumer = kafka.consumer({ groupId: 'classroom-group', allowAutoTopicCreation: true })
 
   await consumer.connect()
